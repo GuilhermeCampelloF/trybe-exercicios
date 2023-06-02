@@ -52,7 +52,7 @@ if (number1 > number2 && number1 > number3) {
     console.log(number3 + ' é o maior número');
 } else {
     console.log('Existem números iguais na operação')
-} ;
+};
 
 // Exercício 4
 // Utilize if...else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. 
@@ -70,4 +70,19 @@ if (angle1 <= 0 || angle2 <= 0 || angle3 <= 0) {
     console.log('true');
 } else if (triangle != 180) {
     console.log('false');
+};
+
+// Exercício 5
+// Utilize if...else para escrever um código que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, o código deve retornar false.
+// Faça esse exercício utilizando somente um if.
+
+const num1 = 1;
+const num2 = 2;
+const num3 = 3;
+
+let numpar = false;
+
+if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
+    numpar = true;
 }
+console.log(numpar);
