@@ -76,13 +76,13 @@ if (angle1 <= 0 || angle2 <= 0 || angle3 <= 0) {
 // Utilize if...else para escrever um código que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, o código deve retornar false.
 // Faça esse exercício utilizando somente um if.
 
-const num1 = 1;
-const num2 = 2;
-const num3 = 3;
+const n1 = 1;
+const n2 = 2;
+const n3 = 3;
 
 let numpar = false;
 
-if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
+if (n1 % 2 === 0 || n2 % 2 === 0 || n3 % 2 === 0) {
     numpar = true;
 }
 console.log(numpar);
